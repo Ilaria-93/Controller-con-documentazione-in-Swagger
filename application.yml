@@ -1,0 +1,11 @@
+spring:
+  resources:
+    add-mappings: true
+
+springdoc:
+  packagesToScan: com.company
+  swagger-ui:
+    defaultModelsExpandDepth: -1
+    path: "/swagger-ui.html"
+  webjars:
+    prefix: /service1
